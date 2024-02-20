@@ -2,6 +2,9 @@
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
+/**
+ *  Clase View para la aplicación de Chuck Norris.
+ **/
 class View
 {
 
